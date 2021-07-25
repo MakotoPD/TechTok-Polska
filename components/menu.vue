@@ -5,7 +5,7 @@
                 TechTok Polska
             </button>
         </div>
-        <div class="absolute right-1/2 sm:right-16 top-24 sm:top-8">
+        <div class="absolute right-1/2 sm:right-16 top-20 sm:top-8">
             <a href="https://discord.gg/WAsrXSeJez" target="_blank">
                 <button class="px-3 border rounded-lg text-white text-sm sm:text-lg font-normal transform translate-x-1/2 sm:translate-x-0">
                     Dołącz do nas

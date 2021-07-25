@@ -1,23 +1,46 @@
 <template>
   <div>
     <Menu/>
-    <div class="contain mx-auto sm:flex items-center">
+    <div class="notmobile contain mx-auto flex items-center">
       <div class="flex-1 pt-36 sm:pt-16">
         <p class="text-white text-2xl xl:text-5xl mb-6 leading-tight">
           <span class="prim">Społeczność</span> łącząca pasjonatów informatyki i technologii.
         </p>
+
         <p class="text-white text-md xl:text-lg">
           Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!
         </p>
+
         <button class="comming mt-4 px-3 border rounded-lg text-white text-lg font-normal cursor-default">
             Strona w trakcie tworzenia
         </button>
+
       </div>
+
       <div class="flex-1 mt-24 sm:mt-1 xl:pl-96">
         <img src="../static/landingTt.png" alt="">
       </div>
     </div>
 
+    <div class="mobile contain mx-auto sm:flex items-center">
+      <div class="flex-1 mt-24">
+        <img src="../static/landingTt.png" alt="">
+      </div>
+
+      <div class="flex-1">
+        <p class="text-white text-2xl mb-6 leading-tight">
+          <span class="prim">Społeczność</span> łącząca pasjonatów informatyki i technologii.
+        </p>
+
+        <p class="text-white text-md xl:text-lg">
+          Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!
+        </p>
+
+        <button class="comming mt-4 px-3 border rounded-lg text-white text-lg font-normal cursor-default">
+            Strona w trakcie tworzenia
+        </button>
+      </div>
+    </div>
 
     <div class="flex flex-wrap justify-center	w-10/12 mx-auto">
 
@@ -85,5 +108,21 @@ export default {}
   button.comming{
     background-color: #00000040;
     border-color: #695d63;
+  }
+
+  .notmobile{
+      display: none;
+    }
+  .mobile{
+    display: block;
+  }
+
+  @media (min-width: 640px) {
+    .notmobile{
+      display: block;
+    }
+    .mobile{
+      display: none;
+    }
   }
 </style>
