@@ -13,9 +13,11 @@
           Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!
         </p>
 
-        <button class="comming mt-4 px-3 border rounded-lg text-white text-lg font-normal cursor-default">
-            Strona w trakcie tworzenia
-        </button>
+        <a href="https://discord.gg/WAsrXSeJez" target="_blank">
+          <button class="mt-4 px-3 border rounded-lg text-white text-lg font-normal">
+              Dołącz do nas
+          </button>
+        </a>
 
       </div>
 
@@ -40,11 +42,11 @@
           Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!
         </p>
 
-         <a href="https://discord.gg/WAsrXSeJez" target="_blank">
-          <button class="mt-4 px-3 border rounded-lg text-white text-lg font-normal">
-              Dołącz do nas
-          </button>
-        </a>
+          <a href="https://discord.gg/WAsrXSeJez" target="_blank">
+            <button class="mt-4 px-3 border rounded-lg text-white text-lg font-normal">
+                Dołącz do nas
+            </button>
+          </a>
       </div>
     </div>
 
