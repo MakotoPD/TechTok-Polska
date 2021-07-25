@@ -105,7 +105,7 @@ export default {}
   }
   .contain{
     max-width: 80%;
-    height: 750px;
+    height: auto;
   }
   .bg-darkBlue{
     background-color: #009ef326;
@@ -126,6 +126,9 @@ export default {}
   @media (min-width: 640px) {
     .notmobile{
       display: flex;
+    }
+    .contain{
+      height: 750px;
     }
     .mobile{
       display: none;
