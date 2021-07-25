@@ -71,7 +71,7 @@
           Projekty
         </h4>
         <p class="text-gray-400 mt-4">
-          Projekty, które będą mogły urozmaicić i rozjebać ci psyche :)
+          Tworzymy projekty, które pozwolą uprościć Twoje życie!
         </p>
       </div>
       <div class="flex-1 w-60 h-auto bg-darkBlue rounded-xl mx-16 my-8 p-8 text-white">
@@ -79,7 +79,7 @@
           Twórcy
         </h4>
         <p class="text-gray-400 mt-4">
-          Twórcy tak charyzmatyczni że bania siada
+          Rzeczy tworzone są przez młodych twórców dla młodych odbiorców.
         </p>
       </div>
     </div>
