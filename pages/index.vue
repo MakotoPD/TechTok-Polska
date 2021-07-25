@@ -40,9 +40,11 @@
           Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!
         </p>
 
-        <button class="comming mt-4 px-3 border rounded-lg text-white text-lg font-normal cursor-default">
-            Strona w trakcie tworzenia
-        </button>
+         <a href="https://discord.gg/WAsrXSeJez" target="_blank">
+          <button class="mt-4 px-3 border rounded-lg text-white text-lg font-normal">
+              Dołącz do nas
+          </button>
+        </a>
       </div>
     </div>
 
@@ -111,9 +113,9 @@ export default {}
     background-color: #009ef326;
   }
 
-  button.comming{
-    background-color: #00000040;
-    border-color: #695d63;
+  button{
+    background-color: #9e007940;
+    border-color: #D63189;
   }
 
   .notmobile{
