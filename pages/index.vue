@@ -1,6 +1,8 @@
 <template>
   <div>
     <Menu/>
+
+    <!-- Desktop version -->
     <div class="notmobile contain mx-auto flex items-center">
       <div class="flex-1 pt-36 sm:pt-16">
         <p class="text-white text-2xl xl:text-5xl mb-6 leading-tight">
@@ -22,6 +24,8 @@
       </div>
     </div>
 
+
+    <!-- Mobile version -->
     <div class="mobile contain mx-auto sm:flex items-center">
       <div class="flex-1 mt-24">
         <img src="../static/landingTt.png" alt="">
@@ -42,6 +46,8 @@
       </div>
     </div>
 
+
+    <!-- All version -->
     <div class="flex flex-wrap justify-center	w-10/12 mx-auto">
 
       <div class="flex-1 w-60 h-auto bg-darkBlue rounded-xl mx-16 my-8 p-8 text-white">
@@ -119,7 +125,7 @@ export default {}
 
   @media (min-width: 640px) {
     .notmobile{
-      display: block;
+      display: flex;
     }
     .mobile{
       display: none;
