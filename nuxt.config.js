@@ -7,7 +7,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Społeczność łącząca pasjonatów informatyki i technologii. Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!' },
       { name:'og:description', content: 'Społeczność łącząca pasjonatów informatyki i technologii. Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!' },
-      { name:'og:image', content:'/static/thumbnail.png' },
+      { name:'og:image', content:'/thumbnail.png' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
