@@ -87,6 +87,12 @@
         </p>
       </div>
     </div>
+
+    <div class="flex justify-center py-8">
+      <h1 class="flex text-white">
+        Designed & development by <span> <a href="https://makoto.pl" target="_blank"> <img class="w-32 px-2" src="../static/makoto.png" alt="Makoto"> </a></span>
+      </h1>
+    </div>
   </div>
 </template>
 
