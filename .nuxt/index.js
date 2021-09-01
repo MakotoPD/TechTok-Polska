@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_4b4905b2 from 'nuxt_plugin_plugin_4b4905b2' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_4d7f986c from 'nuxt_plugin_axios_4d7f986c' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_1570f9e8 from 'nuxt_plugin_plugin_1570f9e8' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_a27bada2 from 'nuxt_plugin_axios_a27bada2' // Source: .\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -63,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"TechTok Polska","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ficon.png"},{"hid":"gf-prefetch","rel":"dns-prefetch","href":"https:\u002F\u002Ffonts.gstatic.com\u002F"},{"hid":"gf-preconnect","rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com\u002F","crossorigin":""},{"hid":"gf-preload","rel":"preload","as":"style","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900"}],"style":[],"script":[{"hid":"gf-script","innerHTML":"(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900\";document.querySelector(\"head\").appendChild(l);})();"}],"noscript":[{"hid":"gf-noscript","innerHTML":"\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900\"\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gf-script":["innerHTML"],"gf-noscript":["innerHTML"]}},
+    head: {"title":"TechTok Polska","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"og:title","name":"og:title","content":"TechTok Polska"},{"hid":"description","name":"description","content":"Społeczność łącząca pasjonatów informatyki i technologii. Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!"},{"hid":"og:description","name":"og:description","content":"Społeczność łącząca pasjonatów informatyki i technologii. Możesz tu pochwalić się swoim projektem, znaleźć rozwiązanie jakiegoś problemu, a co najważniejsze poznać wiele ciekawych osób!"},{"hid":"og:image","name":"og:image","content":"\u002Fthumbnail.png"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ficon.png"},{"hid":"gf-prefetch","rel":"dns-prefetch","href":"https:\u002F\u002Ffonts.gstatic.com\u002F"},{"hid":"gf-preconnect","rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com\u002F","crossorigin":""},{"hid":"gf-preload","rel":"preload","as":"style","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900"}],"style":[],"script":[{"hid":"gf-script","innerHTML":"(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900\";document.querySelector(\"head\").appendChild(l);})();"}],"noscript":[{"hid":"gf-noscript","innerHTML":"\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Roboto&family=Poppins:wght@100;200;300;400;500;600;700;800;900\"\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gf-script":["innerHTML"],"gf-noscript":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -177,12 +177,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_4b4905b2 === 'function') {
-    await nuxt_plugin_plugin_4b4905b2(app.context, inject)
+  if (typeof nuxt_plugin_plugin_1570f9e8 === 'function') {
+    await nuxt_plugin_plugin_1570f9e8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_4d7f986c === 'function') {
-    await nuxt_plugin_axios_4d7f986c(app.context, inject)
+  if (typeof nuxt_plugin_axios_a27bada2 === 'function') {
+    await nuxt_plugin_axios_a27bada2(app.context, inject)
   }
 
   // Lock enablePreview in context

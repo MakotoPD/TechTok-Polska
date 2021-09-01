@@ -1,5 +1,10 @@
 <template>
     <div class="w-screen h-8 relative">
+        <div class="absolute left-6 top-6 sm:left-16 sm:top-8">
+            <a href="https://instagram.com/techtok.polska" target="_blank">
+                <i class='bx bx-md bxl-instagram' style='color:#009ef3'  ></i>
+            </a>
+        </div>
         <div class="absolute left-1/2 top-6">
             <button class="logo py-2 px-4 border rounded-lg text-white text-md sm:text-2xl font-medium transform -translate-x-1/2 cursor-default">
                 TechTok Polska
@@ -14,6 +19,8 @@
 </template>
 
 <script>
+import 'boxicons/css/boxicons.min.css'
+
 export default {}
 </script>
 
